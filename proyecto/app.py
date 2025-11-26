@@ -24,7 +24,7 @@ def load_data():
     Uso: Carga el archivo Excel utilizando pandas.read_excel()
     Decorador: @st.cache_data → Streamlit almacena los datos en caché para no recargar cada vez.
     """
-    return pd.read_excel("datos/rutas_cr.xlsx")
+    return pd.read_excel("proyecto/datos/rutas_cr.xlsx")
 
 # DataFrame con los datos principales
 df = load_data()
