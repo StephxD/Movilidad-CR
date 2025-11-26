@@ -1,0 +1,14 @@
+streamlit
+pandas
+numpy
+requests
+
+pydeck
+
+folium
+streamlit-folium
+
+geopandas
+shapely
+
+openpyxl
